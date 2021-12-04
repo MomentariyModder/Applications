@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "momentariycore2:blocks/spongebobsquepents",
+    "up": "momentariycore2:blocks/spongebobsquepents",
+    "north": "momentariycore2:blocks/spongebobsquepents",
+    "east": "momentariycore2:blocks/spongebobsquepents",
+    "south": "momentariycore2:blocks/spongebobsquepents",
+    "west": "momentariycore2:blocks/spongebobsquepents",
+    "particle": "momentariycore2:blocks/spongebobsquepents"
+  }
+}

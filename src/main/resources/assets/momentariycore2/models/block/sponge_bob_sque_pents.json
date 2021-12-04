@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "momentariycore2:blocks/ssreload",
+    "up": "momentariycore2:blocks/ssreload",
+    "north": "momentariycore2:blocks/ssreload",
+    "east": "momentariycore2:blocks/ssreload",
+    "south": "momentariycore2:blocks/ssreload",
+    "west": "momentariycore2:blocks/ssreload",
+    "particle": "momentariycore2:blocks/ssreload"
+  }
+}

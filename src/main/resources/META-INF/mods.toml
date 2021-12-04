@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="momentariycore2"
+version="2.0"
+displayName="MomentariyModder'Applications"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://perodiumcraft.ucoz.net"
+updateJSONURL="https://raw.githubusercontent.com/MomentariyModder/versions/main/Applications/version.json"
+logoFile="logo.png"
+authors="MomentariyModder, NemanCraft"
+description='''
+Core for MomentariyModder mods on version 1.16.5
+'''
+
+[[dependencies.momentariycore2]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

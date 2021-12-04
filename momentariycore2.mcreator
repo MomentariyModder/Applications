@@ -1,0 +1,106 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MC2TAB",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MomentariyCore2Block",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PerodiumCraftBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Momentariy",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpongeBobSquePents",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PiglinBartering",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "piglin_bartering"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "itemGroup.tabmc_2_tab": "ßfMomentariyß4Modder\u0027ßfApplications",
+      "block.momentariycore2.momentariy_core_2_block": "ßf¡ÎÓÍ Momentariyß4Modder\u0027ßfApplications",
+      "itemGroup.tabmc2tab": "ßfMomentariyß4Modder\u0027ßfApplications",
+      "block.momentariycore2.sponge_bob_sque_pents": "ße¡ÎÓÍ Spongebob Squarepants Reload",
+      "block.momentariycore2.spongebobsquepents": "ße¡ÎÓÍ Spongebob Squarepants Reload",
+      "item.momentariycore2.momentariy": "ßfMomentariy ß4Modder",
+      "block.momentariycore2.perodium_craft_block": "ß8¡ÎÓÍ PerodiumCraft",
+      "block.momentariycore2.momentariycore2block": "ßf¡ÎÓÍ Momentariyß4Modder\u0027ßfApplications",
+      "block.momentariycore2.perodiumcraftblock": "ß8¡ÎÓÍ PerodiumCraft"
+    },
+    "en_us": {
+      "itemGroup.tabmc_2_tab": "ßfMomentariyß4Modder\u0027ßfApplications",
+      "block.momentariycore2.momentariy_core_2_block": "ßfBlock of Momentariyß4Modder\u0027ßfApplications",
+      "itemGroup.tabmc2tab": "ß4MomentariyßfModder\u0027Applications",
+      "block.momentariycore2.sponge_bob_sque_pents": "ßeBlock of Spongebob Squarepants Reload",
+      "block.momentariycore2.spongebobsquepents": "ßeBlock of Spongebob Squarepants Reload",
+      "item.momentariycore2.momentariy": "ßfMomentariyß4Modder",
+      "block.momentariycore2.perodium_craft_block": "ß8Block of PerodiumCraft",
+      "block.momentariycore2.momentariycore2block": "ß4Block of MomentariyßfModder\u0027Applications",
+      "block.momentariycore2.perodiumcraftblock": "ß8Block of PerodiumCraft"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "momentariycore2",
+    "modName": "MomentariyModder\u0027Applications",
+    "version": "2.0",
+    "description": "Core for MomentariyModder mods on version 1.16.5",
+    "author": "MomentariyModder, NemanCraft",
+    "websiteURL": "https://perodiumcraft.ucoz.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "updateURL": "https://raw.githubusercontent.com/MomentariyModder/versions/main/Applications/version.json",
+    "modPicture": "banner",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.momentariycore2",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100347317
+}
