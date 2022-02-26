@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "perodiumcraft2",
-    "textureTop": "perodiumcraft2",
-    "textureLeft": "perodiumcraft2",
-    "textureFront": "perodiumcraft2",
-    "textureRight": "perodiumcraft2",
-    "textureBack": "perodiumcraft2",
+    "texture": "upgrade_vanilla",
+    "textureTop": "upgrade_vanilla",
+    "textureLeft": "upgrade_vanilla",
+    "textureFront": "upgrade_vanilla",
+    "textureRight": "upgrade_vanilla",
+    "textureBack": "upgrade_vanilla",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "§8Block of PerodiumCraft: §7The Next Generation",
+    "name": "§7Block of Upgrade §6Vanilla",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

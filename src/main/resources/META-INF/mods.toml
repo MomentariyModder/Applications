@@ -4,15 +4,15 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="momentariycore2"
-version="2.0"
+version="2.2"
 displayName="MomentariyModder'Applications"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://perodiumcraft.ucoz.net"
+displayURL="https://momentariymodder.github.io/ma.html"
 updateJSONURL="https://raw.githubusercontent.com/MomentariyModder/versions/main/Applications/version.json"
 logoFile="logo.png"
-authors="MomentariyModder, NemanCraft"
+authors="MomentariyModder"
 description='''
-Core for MomentariyModder mods on version 1.16.5
+Core for MomentariyModder mods on version 1.17.1
 '''
 
 [[dependencies.momentariycore2]]

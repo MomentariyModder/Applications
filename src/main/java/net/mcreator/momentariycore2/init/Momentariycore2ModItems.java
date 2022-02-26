@@ -26,6 +26,7 @@ public class Momentariycore2ModItems {
 			Momentariycore2ModTabs.TAB_MC_2_TAB);
 	public static final Item PERODIUM_CRAFT_BLOCK = register(Momentariycore2ModBlocks.PERODIUM_CRAFT_BLOCK, Momentariycore2ModTabs.TAB_MC_2_TAB);
 	public static final Item SPONGE_BOB_SQUE_PENTS = register(Momentariycore2ModBlocks.SPONGE_BOB_SQUE_PENTS, Momentariycore2ModTabs.TAB_MC_2_TAB);
+	public static final Item UPGRADE_VANILLA_BLOCK = register(Momentariycore2ModBlocks.UPGRADE_VANILLA_BLOCK, Momentariycore2ModTabs.TAB_MC_2_TAB);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

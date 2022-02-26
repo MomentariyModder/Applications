@@ -16,10 +16,10 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class PerodiumCraftBlockBlock extends Block {
-	public PerodiumCraftBlockBlock() {
+public class UpgradeVanillaBlockBlock extends Block {
+	public UpgradeVanillaBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("perodium_craft_block");
+		setRegistryName("upgrade_vanilla_block");
 	}
 
 	@Override

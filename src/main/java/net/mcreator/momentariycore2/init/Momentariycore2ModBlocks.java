@@ -10,6 +10,7 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.momentariycore2.block.UpgradeVanillaBlockBlock;
 import net.mcreator.momentariycore2.block.SpongeBobSquePentsBlock;
 import net.mcreator.momentariycore2.block.PerodiumCraftBlockBlock;
 import net.mcreator.momentariycore2.block.MomentariyCore2BlockBlock;
@@ -23,6 +24,7 @@ public class Momentariycore2ModBlocks {
 	public static final Block MOMENTARIY_CORE_2_BLOCK = register(new MomentariyCore2BlockBlock());
 	public static final Block PERODIUM_CRAFT_BLOCK = register(new PerodiumCraftBlockBlock());
 	public static final Block SPONGE_BOB_SQUE_PENTS = register(new SpongeBobSquePentsBlock());
+	public static final Block UPGRADE_VANILLA_BLOCK = register(new UpgradeVanillaBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

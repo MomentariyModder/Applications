@@ -1,45 +1,39 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "MC2TAB",
       "type": "tab",
       "sortid": 5,
       "compiles": true,
-      "locked_code": false,
-      "ids": {}
+      "locked_code": false
     },
     {
       "name": "MomentariyCore2Block",
       "type": "block",
       "sortid": 3,
       "compiles": true,
-      "locked_code": false,
-      "ids": {}
+      "locked_code": false
     },
     {
       "name": "PerodiumCraftBlock",
       "type": "block",
       "sortid": 4,
       "compiles": true,
-      "locked_code": false,
-      "ids": {}
+      "locked_code": false
     },
     {
       "name": "Momentariy",
       "type": "item",
       "sortid": 1,
       "compiles": true,
-      "locked_code": false,
-      "ids": {}
+      "locked_code": false
     },
     {
       "name": "SpongeBobSquePents",
       "type": "block",
       "sortid": 6,
       "compiles": true,
-      "locked_code": false,
-      "ids": {}
+      "locked_code": false
     },
     {
       "name": "PiglinBartering",
@@ -47,24 +41,49 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": true,
-      "ids": {},
       "registry_name": "piglin_bartering"
+    },
+    {
+      "name": "WorldJoin",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_join",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpgradeVanillaBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_vanilla_block"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "file",
+      "type": "file",
+      "scope": "global",
+      "value": "new File(\"\")"
+    },
+    {
+      "name": "mainJsonObject",
+      "type": "blockstate",
+      "scope": "global",
+      "value": "Blocks.AIR.defaultBlockState()"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
-    "ru_ru": {
-      "itemGroup.tabmc_2_tab": "ßfMomentariyß4Modder\u0027ßfApplications",
-      "block.momentariycore2.momentariy_core_2_block": "ßf¡ÎÓÍ Momentariyß4Modder\u0027ßfApplications",
-      "itemGroup.tabmc2tab": "ßfMomentariyß4Modder\u0027ßfApplications",
-      "block.momentariycore2.sponge_bob_sque_pents": "ße¡ÎÓÍ Spongebob Squarepants Reload",
-      "block.momentariycore2.spongebobsquepents": "ße¡ÎÓÍ Spongebob Squarepants Reload",
-      "item.momentariycore2.momentariy": "ßfMomentariy ß4Modder",
-      "block.momentariycore2.perodium_craft_block": "ß8¡ÎÓÍ PerodiumCraft",
-      "block.momentariycore2.momentariycore2block": "ßf¡ÎÓÍ Momentariyß4Modder\u0027ßfApplications",
-      "block.momentariycore2.perodiumcraftblock": "ß8¡ÎÓÍ PerodiumCraft"
-    },
     "en_us": {
       "itemGroup.tabmc_2_tab": "ßfMomentariyß4Modder\u0027ßfApplications",
       "block.momentariycore2.momentariy_core_2_block": "ßfBlock of Momentariyß4Modder\u0027ßfApplications",
@@ -72,7 +91,8 @@
       "block.momentariycore2.sponge_bob_sque_pents": "ßeBlock of Spongebob Squarepants Reload",
       "block.momentariycore2.spongebobsquepents": "ßeBlock of Spongebob Squarepants Reload",
       "item.momentariycore2.momentariy": "ßfMomentariyß4Modder",
-      "block.momentariycore2.perodium_craft_block": "ß8Block of PerodiumCraft",
+      "block.momentariycore2.upgrade_vanilla_block": "ß7Block of Upgrade ß6Vanilla",
+      "block.momentariycore2.perodium_craft_block": "ß8Block of PerodiumCraft: ß7The Next Generation",
       "block.momentariycore2.momentariycore2block": "ß4Block of MomentariyßfModder\u0027Applications",
       "block.momentariycore2.perodiumcraftblock": "ß8Block of PerodiumCraft"
     }
@@ -84,10 +104,10 @@
   "workspaceSettings": {
     "modid": "momentariycore2",
     "modName": "MomentariyModder\u0027Applications",
-    "version": "2.0",
-    "description": "Core for MomentariyModder mods on version 1.16.5",
-    "author": "MomentariyModder, NemanCraft",
-    "websiteURL": "https://perodiumcraft.ucoz.net",
+    "version": "2.2",
+    "description": "Core for MomentariyModder mods on version 1.17.1",
+    "author": "MomentariyModder",
+    "websiteURL": "https://momentariymodder.github.io/ma.html",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": true,
@@ -98,9 +118,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.momentariycore2",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100347317
+  "mcreatorVersion": 202100354000
 }

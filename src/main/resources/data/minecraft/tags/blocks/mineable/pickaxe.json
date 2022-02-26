@@ -3,6 +3,7 @@
   "values": [
     "momentariycore2:momentariy_core_2_block",
     "momentariycore2:perodium_craft_block",
-    "momentariycore2:sponge_bob_sque_pents"
+    "momentariycore2:sponge_bob_sque_pents",
+    "momentariycore2:upgrade_vanilla_block"
   ]
 }
