@@ -19,7 +19,6 @@ import java.util.Collections;
 public class MomentariyCore2BlockBlock extends Block {
 	public MomentariyCore2BlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("momentariy_core_2_block");
 	}
 
 	@Override

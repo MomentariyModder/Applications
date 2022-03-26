@@ -16,15 +16,19 @@ package net.mcreator.momentariycore2;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.momentariycore2.init.Momentariycore2ModTabs;
+import net.mcreator.momentariycore2.init.Momentariycore2ModItems;
+import net.mcreator.momentariycore2.init.Momentariycore2ModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,6 +45,10 @@ public class Momentariycore2Mod {
 
 	public Momentariycore2Mod() {
 		Momentariycore2ModTabs.load();
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		Momentariycore2ModBlocks.REGISTRY.register(bus);
+		Momentariycore2ModItems.REGISTRY.register(bus);
+
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

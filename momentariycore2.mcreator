@@ -36,14 +36,6 @@
       "locked_code": false
     },
     {
-      "name": "PiglinBartering",
-      "type": "loottable",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "piglin_bartering"
-    },
-    {
       "name": "WorldJoin",
       "type": "procedure",
       "sortid": 9,
@@ -85,16 +77,16 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabmc_2_tab": "�fMomentariy�4Modder\u0027�fApplications",
-      "block.momentariycore2.momentariy_core_2_block": "�fBlock of Momentariy�4Modder\u0027�fApplications",
-      "itemGroup.tabmc2tab": "�4Momentariy�fModder\u0027Applications",
-      "block.momentariycore2.sponge_bob_sque_pents": "�eBlock of Spongebob Squarepants Reload",
-      "block.momentariycore2.spongebobsquepents": "�eBlock of Spongebob Squarepants Reload",
-      "item.momentariycore2.momentariy": "�fMomentariy�4Modder",
-      "block.momentariycore2.upgrade_vanilla_block": "�7Block of Upgrade �6Vanilla",
-      "block.momentariycore2.perodium_craft_block": "�8Block of PerodiumCraft: �7The Next Generation",
-      "block.momentariycore2.momentariycore2block": "�4Block of Momentariy�fModder\u0027Applications",
-      "block.momentariycore2.perodiumcraftblock": "�8Block of PerodiumCraft"
+      "itemGroup.tabmc_2_tab": "Р’В§fMomentariyР’В§4Modder\u0027Р’В§fApplications",
+      "block.momentariycore2.momentariy_core_2_block": "Р’В§fBlock of MomentariyР’В§4Modder\u0027Р’В§fApplications",
+      "itemGroup.tabmc2tab": "Р’В§4MomentariyР’В§fModder\u0027Applications",
+      "block.momentariycore2.sponge_bob_sque_pents": "Р’В§eBlock of Spongebob Squarepants Reload",
+      "block.momentariycore2.spongebobsquepents": "Р’В§eBlock of Spongebob Squarepants Reload",
+      "item.momentariycore2.momentariy": "Р’В§fMomentariyР’В§4Modder",
+      "block.momentariycore2.upgrade_vanilla_block": "Р’В§7Block of Upgrade Р’В§6Vanilla",
+      "block.momentariycore2.perodium_craft_block": "Р’В§8Block of PerodiumCraft: Р’В§7The Next Generation",
+      "block.momentariycore2.momentariycore2block": "Р’В§4Block of MomentariyР’В§fModder\u0027Applications",
+      "block.momentariycore2.perodiumcraftblock": "Р’В§8Block of PerodiumCraft"
     }
   },
   "foldersRoot": {
@@ -104,8 +96,8 @@
   "workspaceSettings": {
     "modid": "momentariycore2",
     "modName": "MomentariyModder\u0027Applications",
-    "version": "2.2",
-    "description": "Core for MomentariyModder mods on version 1.17.1",
+    "version": "3.0",
+    "description": "Core for MomentariyModder mods on version 1.18.2",
     "author": "MomentariyModder",
     "websiteURL": "https://momentariymodder.github.io/ma.html",
     "license": "All Rights Reserved",
@@ -117,9 +109,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.17.1",
+    "currentGenerator": "forge-1.18.2",
+    "credits": "© 2022 MomentariyModder ",
     "modElementsPackage": "net.mcreator.momentariycore2",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200112711
 }

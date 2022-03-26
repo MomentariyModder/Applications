@@ -19,7 +19,6 @@ import java.util.Collections;
 public class UpgradeVanillaBlockBlock extends Block {
 	public UpgradeVanillaBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("upgrade_vanilla_block");
 	}
 
 	@Override

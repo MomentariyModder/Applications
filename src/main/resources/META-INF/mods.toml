@@ -1,24 +1,24 @@
 modLoader="javafml"
-loaderVersion="[37,)"
+loaderVersion="[40,)"
 license="All Rights Reserved"
 
 [[mods]]
 modId="momentariycore2"
-version="2.2"
+version="3.0"
 displayName="MomentariyModder'Applications"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="© 2022 MomentariyModder "
 displayURL="https://momentariymodder.github.io/ma.html"
 updateJSONURL="https://raw.githubusercontent.com/MomentariyModder/versions/main/Applications/version.json"
 logoFile="logo.png"
 authors="MomentariyModder"
 description='''
-Core for MomentariyModder mods on version 1.17.1
+Core for MomentariyModder mods on version 1.18.2
 '''
 
 [[dependencies.momentariycore2]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1]"
+    versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
 
