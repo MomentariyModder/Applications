@@ -19,7 +19,6 @@ import java.util.Collections;
 public class PerodiumCraftBlockBlock extends Block {
 	public PerodiumCraftBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("perodium_craft_block");
 	}
 
 	@Override

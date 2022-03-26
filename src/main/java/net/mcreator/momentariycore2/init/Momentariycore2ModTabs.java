@@ -17,7 +17,7 @@ public class Momentariycore2ModTabs {
 		TAB_MC_2_TAB = new CreativeModeTab("tabmc_2_tab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Momentariycore2ModItems.MOMENTARIY);
+				return new ItemStack(Momentariycore2ModItems.MOMENTARIY.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
