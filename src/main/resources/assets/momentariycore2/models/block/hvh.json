@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "momentariycore2:blocks/night_vision_helmets",
+    "up": "momentariycore2:blocks/night_vision_helmets",
+    "north": "momentariycore2:blocks/night_vision_helmets",
+    "east": "momentariycore2:blocks/night_vision_helmets",
+    "south": "momentariycore2:blocks/night_vision_helmets",
+    "west": "momentariycore2:blocks/night_vision_helmets",
+    "particle": "momentariycore2:blocks/night_vision_helmets"
+  },
+  "render_type": "solid"
+}

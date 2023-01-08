@@ -10,10 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.momentariycore2.block.UpgradeVanillaBlockBlock;
 import net.mcreator.momentariycore2.block.SpongeBobSquePentsBlock;
 import net.mcreator.momentariycore2.block.PerodiumCraftBlockBlock;
 import net.mcreator.momentariycore2.block.MomentariyCore2BlockBlock;
+import net.mcreator.momentariycore2.block.HVHBlock;
+import net.mcreator.momentariycore2.block.CSEBlock;
+import net.mcreator.momentariycore2.block.CMDBlock;
 import net.mcreator.momentariycore2.Momentariycore2Mod;
 
 public class Momentariycore2ModBlocks {
@@ -22,6 +24,7 @@ public class Momentariycore2ModBlocks {
 			() -> new MomentariyCore2BlockBlock());
 	public static final RegistryObject<Block> PERODIUM_CRAFT_BLOCK = REGISTRY.register("perodium_craft_block", () -> new PerodiumCraftBlockBlock());
 	public static final RegistryObject<Block> SPONGE_BOB_SQUE_PENTS = REGISTRY.register("sponge_bob_sque_pents", () -> new SpongeBobSquePentsBlock());
-	public static final RegistryObject<Block> UPGRADE_VANILLA_BLOCK = REGISTRY.register("upgrade_vanilla_block",
-			() -> new UpgradeVanillaBlockBlock());
+	public static final RegistryObject<Block> HVH = REGISTRY.register("hvh", () -> new HVHBlock());
+	public static final RegistryObject<Block> CMD = REGISTRY.register("cmd", () -> new CMDBlock());
+	public static final RegistryObject<Block> CSE = REGISTRY.register("cse", () -> new CSEBlock());
 }

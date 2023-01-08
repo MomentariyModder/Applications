@@ -25,8 +25,9 @@ public class Momentariycore2ModItems {
 			Momentariycore2ModTabs.TAB_MC_2_TAB);
 	public static final RegistryObject<Item> SPONGE_BOB_SQUE_PENTS = block(Momentariycore2ModBlocks.SPONGE_BOB_SQUE_PENTS,
 			Momentariycore2ModTabs.TAB_MC_2_TAB);
-	public static final RegistryObject<Item> UPGRADE_VANILLA_BLOCK = block(Momentariycore2ModBlocks.UPGRADE_VANILLA_BLOCK,
-			Momentariycore2ModTabs.TAB_MC_2_TAB);
+	public static final RegistryObject<Item> HVH = block(Momentariycore2ModBlocks.HVH, Momentariycore2ModTabs.TAB_MC_2_TAB);
+	public static final RegistryObject<Item> CMD = block(Momentariycore2ModBlocks.CMD, Momentariycore2ModTabs.TAB_MC_2_TAB);
+	public static final RegistryObject<Item> CSE = block(Momentariycore2ModBlocks.CSE, Momentariycore2ModTabs.TAB_MC_2_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

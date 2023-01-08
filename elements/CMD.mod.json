@@ -2,12 +2,12 @@
   "_fv": 38,
   "_type": "block",
   "definition": {
-    "texture": "perodiumcraft",
-    "textureTop": "perodiumcraft",
-    "textureLeft": "perodiumcraft",
-    "textureFront": "perodiumcraft",
-    "textureRight": "perodiumcraft",
-    "textureBack": "perodiumcraft",
+    "texture": "created_music_discs-avatar-mini",
+    "textureTop": "created_music_discs-avatar-mini",
+    "textureLeft": "created_music_discs-avatar-mini",
+    "textureFront": "created_music_discs-avatar-mini",
+    "textureRight": "created_music_discs-avatar-mini",
+    "textureBack": "created_music_discs-avatar-mini",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Block of PerodiumCraft",
+    "name": "Block of Created Music Discs",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

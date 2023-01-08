@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "momentariycore2:blocks/perodiumcraft2",
-    "up": "momentariycore2:blocks/perodiumcraft2",
-    "north": "momentariycore2:blocks/perodiumcraft2",
-    "east": "momentariycore2:blocks/perodiumcraft2",
-    "south": "momentariycore2:blocks/perodiumcraft2",
-    "west": "momentariycore2:blocks/perodiumcraft2",
-    "particle": "momentariycore2:blocks/perodiumcraft2"
-  }
+    "down": "momentariycore2:blocks/perodiumcraft",
+    "up": "momentariycore2:blocks/perodiumcraft",
+    "north": "momentariycore2:blocks/perodiumcraft",
+    "east": "momentariycore2:blocks/perodiumcraft",
+    "south": "momentariycore2:blocks/perodiumcraft",
+    "west": "momentariycore2:blocks/perodiumcraft",
+    "particle": "momentariycore2:blocks/perodiumcraft"
+  },
+  "render_type": "solid"
 }

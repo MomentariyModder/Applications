@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "momentariycore2:custom/momentariymodder",
   "textures": {
-    "layer0": "momentariycore2:items/momentariy"
+    "1": "momentariycore2:blocks/momentariymodder",
+    "particle": "momentariycore2:items/momentariy"
   }
 }

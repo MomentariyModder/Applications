@@ -16,8 +16,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class PerodiumCraftBlockBlock extends Block {
-	public PerodiumCraftBlockBlock() {
+public class CSEBlock extends Block {
+	public CSEBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "momentariycore2:blocks/created_spawn_eggs-avatar-mini",
+    "up": "momentariycore2:blocks/created_spawn_eggs-avatar-mini",
+    "north": "momentariycore2:blocks/created_spawn_eggs-avatar-mini",
+    "east": "momentariycore2:blocks/created_spawn_eggs-avatar-mini",
+    "south": "momentariycore2:blocks/created_spawn_eggs-avatar-mini",
+    "west": "momentariycore2:blocks/created_spawn_eggs-avatar-mini",
+    "particle": "momentariycore2:blocks/created_spawn_eggs-avatar-mini"
+  },
+  "render_type": "solid"
+}

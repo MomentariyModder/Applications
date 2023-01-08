@@ -1,12 +1,10 @@
 {
-  "itemGroup.tabmc_2_tab": "Р’В§fMomentariyР’В§4Modder\u0027Р’В§fApplications",
-  "block.momentariycore2.momentariy_core_2_block": "Р’В§fBlock of MomentariyР’В§4Modder\u0027Р’В§fApplications",
-  "itemGroup.tabmc2tab": "Р’В§4MomentariyР’В§fModder\u0027Applications",
-  "block.momentariycore2.sponge_bob_sque_pents": "Р’В§eBlock of Spongebob Squarepants Reload",
-  "block.momentariycore2.spongebobsquepents": "Р’В§eBlock of Spongebob Squarepants Reload",
-  "item.momentariycore2.momentariy": "Р’В§fMomentariyР’В§4Modder",
-  "block.momentariycore2.upgrade_vanilla_block": "Р’В§7Block of Upgrade Р’В§6Vanilla",
-  "block.momentariycore2.perodium_craft_block": "Р’В§8Block of PerodiumCraft: Р’В§7The Next Generation",
-  "block.momentariycore2.momentariycore2block": "Р’В§4Block of MomentariyР’В§fModder\u0027Applications",
-  "block.momentariycore2.perodiumcraftblock": "Р’В§8Block of PerodiumCraft"
+  "itemGroup.tabmc_2_tab": "MomentariyModder\u0027Applications",
+  "block.momentariycore2.momentariy_core_2_block": "Block of MomentariyModder\u0027Applications",
+  "block.momentariycore2.cse": "Block of Created Spawn Eggs",
+  "block.momentariycore2.sponge_bob_sque_pents": "Block of Spongebob Squarepants Reload",
+  "block.momentariycore2.hvh": "Block of Night Vision Helmets",
+  "block.momentariycore2.cmd": "Block of Created Music Discs",
+  "item.momentariycore2.momentariy": "MomentariyModder",
+  "block.momentariycore2.perodium_craft_block": "Block of PerodiumCraft"
 }

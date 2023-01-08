@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "momentariycore2:blocks/created_music_discs-avatar-mini",
+    "up": "momentariycore2:blocks/created_music_discs-avatar-mini",
+    "north": "momentariycore2:blocks/created_music_discs-avatar-mini",
+    "east": "momentariycore2:blocks/created_music_discs-avatar-mini",
+    "south": "momentariycore2:blocks/created_music_discs-avatar-mini",
+    "west": "momentariycore2:blocks/created_music_discs-avatar-mini",
+    "particle": "momentariycore2:blocks/created_music_discs-avatar-mini"
+  },
+  "render_type": "solid"
+}
