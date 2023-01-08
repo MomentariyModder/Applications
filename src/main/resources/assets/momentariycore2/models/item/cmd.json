@@ -1,5 +1,5 @@
 {
-  "parent": "momentariycore2:block/upgrade_vanilla_block",
+  "parent": "momentariycore2:block/cmd",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -8,5 +8,6 @@
     "south": "momentariycore2:blocks/momentariycore2",
     "west": "momentariycore2:blocks/momentariycore2",
     "particle": "momentariycore2:blocks/momentariycore2"
-  }
+  },
+  "render_type": "solid"
 }

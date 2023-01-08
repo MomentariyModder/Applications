@@ -45,19 +45,35 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
     },
     {
-      "name": "UpgradeVanillaBlock",
+      "name": "HVH",
       "type": "block",
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "upgrade_vanilla_block"
+      "registry_name": "hvh"
+    },
+    {
+      "name": "CMD",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmd"
+    },
+    {
+      "name": "CSE",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cse"
     }
   ],
   "variable_elements": [
@@ -76,17 +92,25 @@
   ],
   "sound_elements": [],
   "language_map": {
+    "ru_ru": {
+      "itemGroup.tabmc_2_tab": "MomentariyModder\u0027Applications",
+      "block.momentariycore2.momentariy_core_2_block": "Блок MomentariyModder\u0027Applications",
+      "block.momentariycore2.cse": "Блок Created Spawn Eggs",
+      "block.momentariycore2.sponge_bob_sque_pents": "Блок Spongebob Squarepants Reload",
+      "block.momentariycore2.hvh": "Блок Night Vision Helmets",
+      "block.momentariycore2.cmd": "Блок Created Music Discs",
+      "item.momentariycore2.momentariy": "MomentariyModder",
+      "block.momentariycore2.perodium_craft_block": "Блок PerodiumCraft"
+    },
     "en_us": {
-      "itemGroup.tabmc_2_tab": "Р’В§fMomentariyР’В§4Modder\u0027Р’В§fApplications",
-      "block.momentariycore2.momentariy_core_2_block": "Р’В§fBlock of MomentariyР’В§4Modder\u0027Р’В§fApplications",
-      "itemGroup.tabmc2tab": "Р’В§4MomentariyР’В§fModder\u0027Applications",
-      "block.momentariycore2.sponge_bob_sque_pents": "Р’В§eBlock of Spongebob Squarepants Reload",
-      "block.momentariycore2.spongebobsquepents": "Р’В§eBlock of Spongebob Squarepants Reload",
-      "item.momentariycore2.momentariy": "Р’В§fMomentariyР’В§4Modder",
-      "block.momentariycore2.upgrade_vanilla_block": "Р’В§7Block of Upgrade Р’В§6Vanilla",
-      "block.momentariycore2.perodium_craft_block": "Р’В§8Block of PerodiumCraft: Р’В§7The Next Generation",
-      "block.momentariycore2.momentariycore2block": "Р’В§4Block of MomentariyР’В§fModder\u0027Applications",
-      "block.momentariycore2.perodiumcraftblock": "Р’В§8Block of PerodiumCraft"
+      "itemGroup.tabmc_2_tab": "MomentariyModder\u0027Applications",
+      "block.momentariycore2.momentariy_core_2_block": "Block of MomentariyModder\u0027Applications",
+      "block.momentariycore2.cse": "Block of Created Spawn Eggs",
+      "block.momentariycore2.sponge_bob_sque_pents": "Block of Spongebob Squarepants Reload",
+      "block.momentariycore2.hvh": "Block of Night Vision Helmets",
+      "block.momentariycore2.cmd": "Block of Created Music Discs",
+      "item.momentariycore2.momentariy": "MomentariyModder",
+      "block.momentariycore2.perodium_craft_block": "Block of PerodiumCraft"
     }
   },
   "foldersRoot": {
@@ -96,10 +120,10 @@
   "workspaceSettings": {
     "modid": "momentariycore2",
     "modName": "MomentariyModder\u0027Applications",
-    "version": "3.0",
-    "description": "Core for MomentariyModder mods on version 1.18.2",
+    "version": "4.2.0",
+    "description": "Core for MomentariyModder mods!",
     "author": "MomentariyModder",
-    "websiteURL": "https://momentariymodder.github.io/ma.html",
+    "websiteURL": "https://momentariymodder.tk",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": true,
@@ -109,10 +133,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.18.2",
-    "credits": "© 2022 MomentariyModder ",
+    "currentGenerator": "forge-1.19.2",
+    "credits": "© 2019-2023 MomentariyModder ",
     "modElementsPackage": "net.mcreator.momentariycore2",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200112711
+  "mcreatorVersion": 202200452117
 }

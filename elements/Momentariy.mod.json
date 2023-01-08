@@ -1,11 +1,11 @@
 {
-  "_fv": 25,
+  "_fv": 38,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "momentariy",
-    "customModelName": "Normal",
-    "name": "§fMomentariy§4Modder",
+    "customModelName": "momentariymodder:default",
+    "name": "MomentariyModder",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:MC2TAB"
@@ -29,6 +29,14 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "hasDispenseBehavior": false
+    "isFood": false,
+    "nutritionalValue": 0,
+    "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
   }
 }

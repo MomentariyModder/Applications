@@ -4,9 +4,6 @@
  */
 package net.mcreator.momentariycore2.init;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -20,7 +17,7 @@ public class Momentariycore2ModTabs {
 				return new ItemStack(Momentariycore2ModItems.MOMENTARIY.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}

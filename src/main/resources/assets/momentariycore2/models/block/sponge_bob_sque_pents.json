@@ -8,5 +8,6 @@
     "south": "momentariycore2:blocks/ssreload",
     "west": "momentariycore2:blocks/ssreload",
     "particle": "momentariycore2:blocks/ssreload"
-  }
+  },
+  "render_type": "solid"
 }

@@ -2,12 +2,12 @@
   "_fv": 38,
   "_type": "block",
   "definition": {
-    "texture": "perodiumcraft",
-    "textureTop": "perodiumcraft",
-    "textureLeft": "perodiumcraft",
-    "textureFront": "perodiumcraft",
-    "textureRight": "perodiumcraft",
-    "textureBack": "perodiumcraft",
+    "texture": "night_vision_helmets",
+    "textureTop": "night_vision_helmets",
+    "textureLeft": "night_vision_helmets",
+    "textureFront": "night_vision_helmets",
+    "textureRight": "night_vision_helmets",
+    "textureBack": "night_vision_helmets",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Block of PerodiumCraft",
+    "name": "Block of Night Vision Helmets",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
